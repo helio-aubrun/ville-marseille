@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inintial-scale=1.0">
+    <link rel="stylesheet" href="marseille.css">
+    <link rel="stylesheet" href="marseille6.css">
+    <link rel="shortcut icon" type="image/jpg" href="marseille.image/VILLE-DE-MARSEILLE.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Ubuntu&display=swap" rel="stylesheet">
+    <title>Ville De Marseille</title>
+</head>
+<header>
+    <img id="logo" src="marseille.image/logo.png" alt="logo" height="90px">
+    <nav>
+        <a class="navi" href="marseille.html">Accueil</a>
+        <a class="navi" href="marseille1.html">Histoire</a>
+        <li>
+            <a href="#" class="navi" >Adresses</a>
+            <ul>
+                <li><a class="navi" href="marseille2.html">Randos</a></li>
+                <li><a class="navi" href="marseille3.html">Plages</a></li>
+                <li><a class="navi" href="marseille4.html">Parcs</a></li>
+                <li><a class="navi" href="marseille5.html">Musées</a></li>
+            </ul>
+        </li>
+    </nav>
+</header>
+<body>
+    <div class="formulaire">
+            <h1>Contactez-nous</h1><br />
+            <form action="\page-traitement-donnzes" method="post"></form>
+            <div><br />
+            <label for="civilite">Civilité</label>
+            <select name="civilite" id="civilite" required>
+            <option value="" disabled selected hidden>Sélectionnez votre civilité</option>
+          <option value="Mr">Mr</option>
+          <option value="Mme">Mme</option>
+          <option value="autre">Autre</option>
+           </select>
+            </div><br />
+         <div>
+            <label for="nom">Nom Prenom</label>
+            <input type="text" id="nom" name="nom" placeholder="Ex: Jean Clenche" required>
+            </div>
+            <div><br />
+           <label for="e-mail">E-mail</label>
+           <input type="email" id="email" name="e-mail" placeholder="Ex: jeanclenche@bloompetals.com">
+            </div>
+            <div><br />
+            <label for="message">Votre message</label>
+            <textarea id="message" name="message" placeholder="écrivez ici" required></textarea>
+           </div><br />
+            <input type="checkbox" id="politique" name="politique" required/>
+           <label for="politique">Validez les politiques de confidentialité de l'entreprise</label>
+            <div><br />
+         <button type="submit" id="envoyer">Envoyer</button>
+         </div>
+    </div>
+    <br /><br />
+</body>
+<footer>
+    <nav>
+        <a class="navi" href="marseille.html">Accueil</a>
+        <a class="navi" href="marseille6.html">Nous contacter</a>
+    </nav>
+</footer>
+</html>
