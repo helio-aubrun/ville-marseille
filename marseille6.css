@@ -1,0 +1,34 @@
+.formulaire {
+    text-align: center;
+}
+#civilite {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(216, 216, 216);
+}
+#nom {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(216, 216, 216);
+    border-width: 0px;
+}
+#email {
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(216, 216, 216);
+    border-width: 0px;
+    width: 220px;
+}
+#message {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(216, 216, 216);
+    border-width: 0px;
+    width: 220px;
+    height: 300px;
+    margin: 0 auto;
+}
+#envoyer {
+    border-radius: 10px 10px 10px 10px;
+    background-color:rgb(216, 216, 216);
+    width: 100px;
+    height: 25px;
+}
