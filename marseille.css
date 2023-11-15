@@ -1,6 +1,7 @@
 html {
     font-family: 'Raleway', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
 }
 header {
     height: 90px;
@@ -60,4 +61,13 @@ nav li ul li a {
   }
 nav li ul li a:hover {
     background-color: rgb(176, 255, 255);
+}
+#desc {
+    font-size: 25px;
+}
+.news {
+    width: 700px;
+}
+#new img {
+    height: 533px;
 }
